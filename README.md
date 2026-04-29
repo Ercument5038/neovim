@@ -19,7 +19,7 @@ Install `rose-pine/neovim` using your favourite package manager:
 
 ```lua
 vim.pack.add({
-    source = "https://github.com/rose-pine/neovim",
+    src = "https://github.com/rose-pine/neovim",
 	name = "rose-pine"
 })
 require("rose-pine").setup()
