@@ -15,6 +15,18 @@
 
 Install `rose-pine/neovim` using your favourite package manager:
 
+### [vim.pack](https://neovim.io/doc/user/pack/#_plugin-manager)
+
+```lua
+vim.pack.add({
+    source = "https://github.com/rose-pine/neovim",
+	name = "rose-pine"
+})
+require("rose-pine").setup()
+vim.cmd("colorscheme rose-pine")
+```
+
+
 ### [pam.nvim](https://github.com/mvllow/pam.nvim)
 
 ```lua
